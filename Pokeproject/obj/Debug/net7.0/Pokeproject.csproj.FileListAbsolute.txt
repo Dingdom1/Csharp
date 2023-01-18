@@ -13,3 +13,6 @@ C:\Users\44743\OneDrive\Documents\Csharp\Csharp\Pokeproject\obj\Debug\net7.0\ref
 C:\Users\44743\OneDrive\Documents\Csharp\Csharp\Pokeproject\obj\Debug\net7.0\Pokeproject.pdb
 C:\Users\44743\OneDrive\Documents\Csharp\Csharp\Pokeproject\obj\Debug\net7.0\Pokeproject.genruntimeconfig.cache
 C:\Users\44743\OneDrive\Documents\Csharp\Csharp\Pokeproject\obj\Debug\net7.0\ref\Pokeproject.dll
+C:\Users\44743\OneDrive\Documents\Csharp\Csharp\Pokeproject\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\44743\OneDrive\Documents\Csharp\Csharp\Pokeproject\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\44743\OneDrive\Documents\Csharp\Csharp\Pokeproject\obj\Debug\net7.0\Pokeproject.csproj.CopyComplete
