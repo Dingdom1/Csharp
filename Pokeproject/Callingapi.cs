@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Net.Http;
-using Newtonsoft.Json;
-using CsvHelper;
-using System.IO;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.IO;
+using System.Net.Http;
+using CsvHelper;
+using Newtonsoft.Json;
 
  public class Pokemon
 {
@@ -21,12 +20,39 @@ public class NameUrlPair
 
 class Program
 {
-    static async Task Main(string[] args)
+    public static List<Pokemon> Pokedex = new List<Pokemon>();
+
+    public static object Pokemonentries { get; private set; }
+
+    static async System.Threading.Tasks.Task Main(string[] args)
     {
         var client = new HttpClient();
-        var response = await client.GetAsync("https://pokeapi.co/api/v2/pokemon/1");
-        var json = await response.Content.ReadAsStringAsync();
-        var pokemon = JsonConvert.DeserializeObject<Pokemon>(json);
-        Console.WriteLine($"Name: {pokemon.Name}, Id: {pokemon.Id}");
+
+               for (int i = 1; i <= 151; i++)
+        {
+            var response = await client.GetAsync($"https://pokeapi.co/api/v2/pokemon/{i}/");
+            if (response.IsSuccessStatusCode)
+            {
+                var json = await response.Content.ReadAsStringAsync();
+                var pokemon = JsonConvert.DeserializeObject<Pokemon>(json);
+                Pokedex.Add(pokemon);
+            }
+            else
+            {
+                Console.WriteLine($"Failed to get Pokemon data for ID {i}. Status code: {response.StatusCode}");
+            }
+        }
+            using (var writer = new StreamWriter("pokemon.csv"))
+        using (var csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
+        {
+            csv.WriteRecords(Pokedex);
+        }
+
     }
 }
+
+
+
+
+
+
