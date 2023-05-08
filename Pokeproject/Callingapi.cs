@@ -1,39 +1,32 @@
-﻿using System.Text.Json;
-using System.Net.Http.Headers;
+﻿using System;
+using System.Net.Http;
 using Newtonsoft.Json;
 using CsvHelper;
 using System.IO;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-
-using HttpClient client = new();
-    
-client.DefaultRequestHeaders.Accept.Clear();
-client.DefaultRequestHeaders.Accept.Add(
-    new MediaTypeWithQualityHeaderValue("applications/json"));
-client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
-
-//public class Myclass
-//public static async Task ExampleMethodAsync()
-
-    await ProcessRepositoriesAsync(client);
-    
-    static async Task ProcessRepositoriesAsync(HttpClient client)
-
+ public class Pokemon
 {
-        var json = await client.GetStringAsync(
-        "https://pokeapi.co/api/v2/pokedex/2"); //list all the pokedex entries of 1st gen Pokemon 1-152
-        // var records = JsonSerializer.Deserialize<dynamic>(json);
-        System.IO.File.WriteAllText(@"pokemon.json", json);
-        string json_file = File.ReadAllText("pokemon.json");
-        var records = JsonConvert.DeserializeObject<dynamic>(json_file);
-
-        using (var writer = new StreamWriter("data.csv"))
-        using (var csv = new CsvWriter(writer))
-        {
-            csv.WriteRecords(records);
-        }
-
+    public string Name { get; set; }
+    public int Id { get; set; }
+    public List<NameUrlPair> Types { get; set; }
 }
 
+public class NameUrlPair
+{
+    public string Name { get; set; }
+    public string Url { get; set; }
+}
 
-
+class Program
+{
+    static async Task Main(string[] args)
+    {
+        var client = new HttpClient();
+        var response = await client.GetAsync("https://pokeapi.co/api/v2/pokemon/1");
+        var json = await response.Content.ReadAsStringAsync();
+        var pokemon = JsonConvert.DeserializeObject<Pokemon>(json);
+        Console.WriteLine($"Name: {pokemon.Name}, Id: {pokemon.Id}");
+    }
+}

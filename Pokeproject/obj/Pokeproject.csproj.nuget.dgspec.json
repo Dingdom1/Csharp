@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44743\\OneDrive\\Documents\\Csharp\\Csharp\\Pokeproject\\Pokeproject.csproj": {}
+    "/home/dominic/Documents/C#/Csharp/Pokeproject/Pokeproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44743\\OneDrive\\Documents\\Csharp\\Csharp\\Pokeproject\\Pokeproject.csproj": {
+    "/home/dominic/Documents/C#/Csharp/Pokeproject/Pokeproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44743\\OneDrive\\Documents\\Csharp\\Csharp\\Pokeproject\\Pokeproject.csproj",
+        "projectUniqueName": "/home/dominic/Documents/C#/Csharp/Pokeproject/Pokeproject.csproj",
         "projectName": "Pokeproject",
-        "projectPath": "C:\\Users\\44743\\OneDrive\\Documents\\Csharp\\Csharp\\Pokeproject\\Pokeproject.csproj",
-        "packagesPath": "C:\\Users\\44743\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44743\\OneDrive\\Documents\\Csharp\\Csharp\\Pokeproject\\obj\\",
+        "projectPath": "/home/dominic/Documents/C#/Csharp/Pokeproject/Pokeproject.csproj",
+        "packagesPath": "/home/dominic/.nuget/packages/",
+        "outputPath": "/home/dominic/Documents/C#/Csharp/Pokeproject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\44743\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/dominic/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
