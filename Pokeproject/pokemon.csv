@@ -1,152 +1,152 @@
-Name,Id
-bulbasaur,1
-ivysaur,2
-venusaur,3
-charmander,4
-charmeleon,5
-charizard,6
-squirtle,7
-wartortle,8
-blastoise,9
-caterpie,10
-metapod,11
-butterfree,12
-weedle,13
-kakuna,14
-beedrill,15
-pidgey,16
-pidgeotto,17
-pidgeot,18
-rattata,19
-raticate,20
-spearow,21
-fearow,22
-ekans,23
-arbok,24
-pikachu,25
-raichu,26
-sandshrew,27
-sandslash,28
-nidoran-f,29
-nidorina,30
-nidoqueen,31
-nidoran-m,32
-nidorino,33
-nidoking,34
-clefairy,35
-clefable,36
-vulpix,37
-ninetales,38
-jigglypuff,39
-wigglytuff,40
-zubat,41
-golbat,42
-oddish,43
-gloom,44
-vileplume,45
-paras,46
-parasect,47
-venonat,48
-venomoth,49
-diglett,50
-dugtrio,51
-meowth,52
-persian,53
-psyduck,54
-golduck,55
-mankey,56
-primeape,57
-growlithe,58
-arcanine,59
-poliwag,60
-poliwhirl,61
-poliwrath,62
-abra,63
-kadabra,64
-alakazam,65
-machop,66
-machoke,67
-machamp,68
-bellsprout,69
-weepinbell,70
-victreebel,71
-tentacool,72
-tentacruel,73
-geodude,74
-graveler,75
-golem,76
-ponyta,77
-rapidash,78
-slowpoke,79
-slowbro,80
-magnemite,81
-magneton,82
-farfetchd,83
-doduo,84
-dodrio,85
-seel,86
-dewgong,87
-grimer,88
-muk,89
-shellder,90
-cloyster,91
-gastly,92
-haunter,93
-gengar,94
-onix,95
-drowzee,96
-hypno,97
-krabby,98
-kingler,99
-voltorb,100
-electrode,101
-exeggcute,102
-exeggutor,103
-cubone,104
-marowak,105
-hitmonlee,106
-hitmonchan,107
-lickitung,108
-koffing,109
-weezing,110
-rhyhorn,111
-rhydon,112
-chansey,113
-tangela,114
-kangaskhan,115
-horsea,116
-seadra,117
-goldeen,118
-seaking,119
-staryu,120
-starmie,121
-mr-mime,122
-scyther,123
-jynx,124
-electabuzz,125
-magmar,126
-pinsir,127
-tauros,128
-magikarp,129
-gyarados,130
-lapras,131
-ditto,132
-eevee,133
-vaporeon,134
-jolteon,135
-flareon,136
-porygon,137
-omanyte,138
-omastar,139
-kabuto,140
-kabutops,141
-aerodactyl,142
-snorlax,143
-articuno,144
-zapdos,145
-moltres,146
-dratini,147
-dragonair,148
-dragonite,149
-mewtwo,150
-mew,151
+Name,Id,Types
+bulbasaur,1,"grass, poison"
+ivysaur,2,"grass, poison"
+venusaur,3,"grass, poison"
+charmander,4,fire
+charmeleon,5,fire
+charizard,6,"fire, flying"
+squirtle,7,water
+wartortle,8,water
+blastoise,9,water
+caterpie,10,bug
+metapod,11,bug
+butterfree,12,"bug, flying"
+weedle,13,"bug, poison"
+kakuna,14,"bug, poison"
+beedrill,15,"bug, poison"
+pidgey,16,"normal, flying"
+pidgeotto,17,"normal, flying"
+pidgeot,18,"normal, flying"
+rattata,19,normal
+raticate,20,normal
+spearow,21,"normal, flying"
+fearow,22,"normal, flying"
+ekans,23,poison
+arbok,24,poison
+pikachu,25,electric
+raichu,26,electric
+sandshrew,27,ground
+sandslash,28,ground
+nidoran-f,29,poison
+nidorina,30,poison
+nidoqueen,31,"poison, ground"
+nidoran-m,32,poison
+nidorino,33,poison
+nidoking,34,"poison, ground"
+clefairy,35,fairy
+clefable,36,fairy
+vulpix,37,fire
+ninetales,38,fire
+jigglypuff,39,"normal, fairy"
+wigglytuff,40,"normal, fairy"
+zubat,41,"poison, flying"
+golbat,42,"poison, flying"
+oddish,43,"grass, poison"
+gloom,44,"grass, poison"
+vileplume,45,"grass, poison"
+paras,46,"bug, grass"
+parasect,47,"bug, grass"
+venonat,48,"bug, poison"
+venomoth,49,"bug, poison"
+diglett,50,ground
+dugtrio,51,ground
+meowth,52,normal
+persian,53,normal
+psyduck,54,water
+golduck,55,water
+mankey,56,fighting
+primeape,57,fighting
+growlithe,58,fire
+arcanine,59,fire
+poliwag,60,water
+poliwhirl,61,water
+poliwrath,62,"water, fighting"
+abra,63,psychic
+kadabra,64,psychic
+alakazam,65,psychic
+machop,66,fighting
+machoke,67,fighting
+machamp,68,fighting
+bellsprout,69,"grass, poison"
+weepinbell,70,"grass, poison"
+victreebel,71,"grass, poison"
+tentacool,72,"water, poison"
+tentacruel,73,"water, poison"
+geodude,74,"rock, ground"
+graveler,75,"rock, ground"
+golem,76,"rock, ground"
+ponyta,77,fire
+rapidash,78,fire
+slowpoke,79,"water, psychic"
+slowbro,80,"water, psychic"
+magnemite,81,"electric, steel"
+magneton,82,"electric, steel"
+farfetchd,83,"normal, flying"
+doduo,84,"normal, flying"
+dodrio,85,"normal, flying"
+seel,86,water
+dewgong,87,"water, ice"
+grimer,88,poison
+muk,89,poison
+shellder,90,water
+cloyster,91,"water, ice"
+gastly,92,"ghost, poison"
+haunter,93,"ghost, poison"
+gengar,94,"ghost, poison"
+onix,95,"rock, ground"
+drowzee,96,psychic
+hypno,97,psychic
+krabby,98,water
+kingler,99,water
+voltorb,100,electric
+electrode,101,electric
+exeggcute,102,"grass, psychic"
+exeggutor,103,"grass, psychic"
+cubone,104,ground
+marowak,105,ground
+hitmonlee,106,fighting
+hitmonchan,107,fighting
+lickitung,108,normal
+koffing,109,poison
+weezing,110,poison
+rhyhorn,111,"ground, rock"
+rhydon,112,"ground, rock"
+chansey,113,normal
+tangela,114,grass
+kangaskhan,115,normal
+horsea,116,water
+seadra,117,water
+goldeen,118,water
+seaking,119,water
+staryu,120,water
+starmie,121,"water, psychic"
+mr-mime,122,"psychic, fairy"
+scyther,123,"bug, flying"
+jynx,124,"ice, psychic"
+electabuzz,125,electric
+magmar,126,fire
+pinsir,127,bug
+tauros,128,normal
+magikarp,129,water
+gyarados,130,"water, flying"
+lapras,131,"water, ice"
+ditto,132,normal
+eevee,133,normal
+vaporeon,134,water
+jolteon,135,electric
+flareon,136,fire
+porygon,137,normal
+omanyte,138,"rock, water"
+omastar,139,"rock, water"
+kabuto,140,"rock, water"
+kabutops,141,"rock, water"
+aerodactyl,142,"rock, flying"
+snorlax,143,normal
+articuno,144,"ice, flying"
+zapdos,145,"electric, flying"
+moltres,146,"fire, flying"
+dratini,147,dragon
+dragonair,148,dragon
+dragonite,149,"dragon, flying"
+mewtwo,150,psychic
+mew,151,psychic

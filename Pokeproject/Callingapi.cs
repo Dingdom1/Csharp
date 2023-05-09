@@ -7,15 +7,27 @@ using Newtonsoft.Json;
 
  public class Pokemon
 {
+    [JsonProperty("name")]
     public string Name { get; set; }
+
+    [JsonProperty("id")]
     public int Id { get; set; }
-    public List<NameUrlPair> Types { get; set; }
+
+    [JsonProperty("types")]
+    public List<PokemonType> Types { get; set; }
 }
 
-public class NameUrlPair
+
+public class PokemonType
 {
+    [JsonProperty("type")]
+    public PokemonTypeData TypeData { get; set; }
+}
+
+public class PokemonTypeData
+{
+    [JsonProperty("name")]
     public string Name { get; set; }
-    public string Url { get; set; }
 }
 
 class Program
@@ -45,9 +57,20 @@ class Program
             using (var writer = new StreamWriter("pokemon.csv"))
         using (var csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
         {
-            csv.WriteRecords(Pokedex);
-        }
+                csv.WriteField("Name");
+                csv.WriteField("Id");
+                csv.WriteField("Types");
+                csv.NextRecord();
 
+            foreach (var pokemon in Pokedex)
+            {
+                var types = string.Join(", ", pokemon.Types.ConvertAll(t => t.TypeData.Name));
+                csv.WriteField(pokemon.Name);
+                csv.WriteField(pokemon.Id);
+                csv.WriteField(types);
+                csv.NextRecord();
+            }
+        }
     }
 }
 
