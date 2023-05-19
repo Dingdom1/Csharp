@@ -15,6 +15,44 @@ using Newtonsoft.Json;
 
     [JsonProperty("types")]
     public List<PokemonType> Types { get; set; }
+
+    [JsonProperty("sprites")]
+    public PokemonSprites Sprites { get; set; }
+
+    [JsonProperty("height")]
+
+    public int Height { get; set; }
+
+    [JsonProperty("weight")]
+
+    public int Weight { get; set; }
+
+    [JsonProperty ("abilities")]
+
+    public List<PokemonAbilities> Abilities { get; set; }
+}
+// Get the abilities from the API - Name should return as a string
+public class PokemonAbilities
+{
+    [JsonProperty("ability")]
+    public PokemonAbilityData AbilityData { get; set; }
+}
+// Get the ability name from the API
+public class PokemonAbilityData
+{
+    [JsonProperty("name")]
+    public string Name { get; set; }
+}
+
+// Get the sprites from the API - Front and Shiny should return as html links
+public class PokemonSprites
+{
+    [JsonProperty("front_default")]
+    public string FrontDefault { get; set; }
+
+    [JsonProperty("front_shiny")]
+
+    public string FrontShiny { get; set;}
 }
 
 
@@ -33,8 +71,6 @@ public class PokemonTypeData
 class Program
 {
     public static List<Pokemon> Pokedex = new List<Pokemon>();
-
-    public static object Pokemonentries { get; private set; }
 
     static async System.Threading.Tasks.Task Main(string[] args)
     {
@@ -60,6 +96,11 @@ class Program
                 csv.WriteField("Name");
                 csv.WriteField("Id");
                 csv.WriteField("Types");
+                csv.WriteField("Height");
+                csv.WriteField("Weight");
+                csv.WriteField("Abilities");
+                csv.WriteField("Front Default");
+                csv.WriteField("Front Shiny");
                 csv.NextRecord();
 
             foreach (var pokemon in Pokedex)
@@ -68,6 +109,11 @@ class Program
                 csv.WriteField(pokemon.Name);
                 csv.WriteField(pokemon.Id);
                 csv.WriteField(types);
+                csv.WriteField(pokemon.Height);
+                csv.WriteField(pokemon.Weight);
+                csv.WriteField(string.Join(", ", pokemon.Abilities.Select(a => a.AbilityData.Name)));
+                csv.WriteField(pokemon.Sprites.FrontDefault);
+                csv.WriteField(pokemon.Sprites.FrontShiny);
                 csv.NextRecord();
             }
         }

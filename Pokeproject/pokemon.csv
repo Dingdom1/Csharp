@@ -1,152 +1,152 @@
-Name,Id,Types
-bulbasaur,1,"grass, poison"
-ivysaur,2,"grass, poison"
-venusaur,3,"grass, poison"
-charmander,4,fire
-charmeleon,5,fire
-charizard,6,"fire, flying"
-squirtle,7,water
-wartortle,8,water
-blastoise,9,water
-caterpie,10,bug
-metapod,11,bug
-butterfree,12,"bug, flying"
-weedle,13,"bug, poison"
-kakuna,14,"bug, poison"
-beedrill,15,"bug, poison"
-pidgey,16,"normal, flying"
-pidgeotto,17,"normal, flying"
-pidgeot,18,"normal, flying"
-rattata,19,normal
-raticate,20,normal
-spearow,21,"normal, flying"
-fearow,22,"normal, flying"
-ekans,23,poison
-arbok,24,poison
-pikachu,25,electric
-raichu,26,electric
-sandshrew,27,ground
-sandslash,28,ground
-nidoran-f,29,poison
-nidorina,30,poison
-nidoqueen,31,"poison, ground"
-nidoran-m,32,poison
-nidorino,33,poison
-nidoking,34,"poison, ground"
-clefairy,35,fairy
-clefable,36,fairy
-vulpix,37,fire
-ninetales,38,fire
-jigglypuff,39,"normal, fairy"
-wigglytuff,40,"normal, fairy"
-zubat,41,"poison, flying"
-golbat,42,"poison, flying"
-oddish,43,"grass, poison"
-gloom,44,"grass, poison"
-vileplume,45,"grass, poison"
-paras,46,"bug, grass"
-parasect,47,"bug, grass"
-venonat,48,"bug, poison"
-venomoth,49,"bug, poison"
-diglett,50,ground
-dugtrio,51,ground
-meowth,52,normal
-persian,53,normal
-psyduck,54,water
-golduck,55,water
-mankey,56,fighting
-primeape,57,fighting
-growlithe,58,fire
-arcanine,59,fire
-poliwag,60,water
-poliwhirl,61,water
-poliwrath,62,"water, fighting"
-abra,63,psychic
-kadabra,64,psychic
-alakazam,65,psychic
-machop,66,fighting
-machoke,67,fighting
-machamp,68,fighting
-bellsprout,69,"grass, poison"
-weepinbell,70,"grass, poison"
-victreebel,71,"grass, poison"
-tentacool,72,"water, poison"
-tentacruel,73,"water, poison"
-geodude,74,"rock, ground"
-graveler,75,"rock, ground"
-golem,76,"rock, ground"
-ponyta,77,fire
-rapidash,78,fire
-slowpoke,79,"water, psychic"
-slowbro,80,"water, psychic"
-magnemite,81,"electric, steel"
-magneton,82,"electric, steel"
-farfetchd,83,"normal, flying"
-doduo,84,"normal, flying"
-dodrio,85,"normal, flying"
-seel,86,water
-dewgong,87,"water, ice"
-grimer,88,poison
-muk,89,poison
-shellder,90,water
-cloyster,91,"water, ice"
-gastly,92,"ghost, poison"
-haunter,93,"ghost, poison"
-gengar,94,"ghost, poison"
-onix,95,"rock, ground"
-drowzee,96,psychic
-hypno,97,psychic
-krabby,98,water
-kingler,99,water
-voltorb,100,electric
-electrode,101,electric
-exeggcute,102,"grass, psychic"
-exeggutor,103,"grass, psychic"
-cubone,104,ground
-marowak,105,ground
-hitmonlee,106,fighting
-hitmonchan,107,fighting
-lickitung,108,normal
-koffing,109,poison
-weezing,110,poison
-rhyhorn,111,"ground, rock"
-rhydon,112,"ground, rock"
-chansey,113,normal
-tangela,114,grass
-kangaskhan,115,normal
-horsea,116,water
-seadra,117,water
-goldeen,118,water
-seaking,119,water
-staryu,120,water
-starmie,121,"water, psychic"
-mr-mime,122,"psychic, fairy"
-scyther,123,"bug, flying"
-jynx,124,"ice, psychic"
-electabuzz,125,electric
-magmar,126,fire
-pinsir,127,bug
-tauros,128,normal
-magikarp,129,water
-gyarados,130,"water, flying"
-lapras,131,"water, ice"
-ditto,132,normal
-eevee,133,normal
-vaporeon,134,water
-jolteon,135,electric
-flareon,136,fire
-porygon,137,normal
-omanyte,138,"rock, water"
-omastar,139,"rock, water"
-kabuto,140,"rock, water"
-kabutops,141,"rock, water"
-aerodactyl,142,"rock, flying"
-snorlax,143,normal
-articuno,144,"ice, flying"
-zapdos,145,"electric, flying"
-moltres,146,"fire, flying"
-dratini,147,dragon
-dragonair,148,dragon
-dragonite,149,"dragon, flying"
-mewtwo,150,psychic
-mew,151,psychic
+Name,Id,Types,Height,Weight,Abilities,Front Default,Front Shiny
+bulbasaur,1,"grass, poison",7,69,"overgrow, chlorophyll",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png
+ivysaur,2,"grass, poison",10,130,"overgrow, chlorophyll",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png
+venusaur,3,"grass, poison",20,1000,"overgrow, chlorophyll",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png
+charmander,4,fire,6,85,"blaze, solar-power",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png
+charmeleon,5,fire,11,190,"blaze, solar-power",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png
+charizard,6,"fire, flying",17,905,"blaze, solar-power",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png
+squirtle,7,water,5,90,"torrent, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png
+wartortle,8,water,10,225,"torrent, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png
+blastoise,9,water,16,855,"torrent, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/9.png
+caterpie,10,bug,3,29,"shield-dust, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10.png
+metapod,11,bug,7,99,shed-skin,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png
+butterfree,12,"bug, flying",11,320,"compound-eyes, tinted-lens",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/12.png
+weedle,13,"bug, poison",3,32,"shield-dust, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/13.png
+kakuna,14,"bug, poison",6,100,shed-skin,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/14.png
+beedrill,15,"bug, poison",10,295,"swarm, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/15.png
+pidgey,16,"normal, flying",3,18,"keen-eye, tangled-feet, big-pecks",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/16.png
+pidgeotto,17,"normal, flying",11,300,"keen-eye, tangled-feet, big-pecks",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/17.png
+pidgeot,18,"normal, flying",15,395,"keen-eye, tangled-feet, big-pecks",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/18.png
+rattata,19,normal,3,35,"run-away, guts, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/19.png
+raticate,20,normal,7,185,"run-away, guts, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/20.png
+spearow,21,"normal, flying",3,20,"keen-eye, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/21.png
+fearow,22,"normal, flying",12,380,"keen-eye, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/22.png
+ekans,23,poison,20,69,"intimidate, shed-skin, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/23.png
+arbok,24,poison,35,650,"intimidate, shed-skin, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/24.png
+pikachu,25,electric,4,60,"static, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png
+raichu,26,electric,8,300,"static, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/26.png
+sandshrew,27,ground,6,120,"sand-veil, sand-rush",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/27.png
+sandslash,28,ground,10,295,"sand-veil, sand-rush",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/28.png
+nidoran-f,29,poison,4,70,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/29.png
+nidorina,30,poison,8,200,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/30.png
+nidoqueen,31,"poison, ground",13,600,"poison-point, rivalry, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/31.png
+nidoran-m,32,poison,5,90,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/32.png
+nidorino,33,poison,9,195,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/33.png
+nidoking,34,"poison, ground",14,620,"poison-point, rivalry, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/34.png
+clefairy,35,fairy,6,75,"cute-charm, magic-guard, friend-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/35.png
+clefable,36,fairy,13,400,"cute-charm, magic-guard, unaware",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/36.png
+vulpix,37,fire,6,99,"flash-fire, drought",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/37.png
+ninetales,38,fire,11,199,"flash-fire, drought",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/38.png
+jigglypuff,39,"normal, fairy",5,55,"cute-charm, competitive, friend-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/39.png
+wigglytuff,40,"normal, fairy",10,120,"cute-charm, competitive, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/40.png
+zubat,41,"poison, flying",8,75,"inner-focus, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/41.png
+golbat,42,"poison, flying",16,550,"inner-focus, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/42.png
+oddish,43,"grass, poison",5,54,"chlorophyll, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/43.png
+gloom,44,"grass, poison",8,86,"chlorophyll, stench",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/44.png
+vileplume,45,"grass, poison",12,186,"chlorophyll, effect-spore",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/45.png
+paras,46,"bug, grass",3,54,"effect-spore, dry-skin, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/46.png
+parasect,47,"bug, grass",10,295,"effect-spore, dry-skin, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/47.png
+venonat,48,"bug, poison",10,300,"compound-eyes, tinted-lens, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/48.png
+venomoth,49,"bug, poison",15,125,"shield-dust, tinted-lens, wonder-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/49.png
+diglett,50,ground,2,8,"sand-veil, arena-trap, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/50.png
+dugtrio,51,ground,7,333,"sand-veil, arena-trap, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/51.png
+meowth,52,normal,4,42,"pickup, technician, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/52.png
+persian,53,normal,10,320,"limber, technician, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/53.png
+psyduck,54,water,8,196,"damp, cloud-nine, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/54.png
+golduck,55,water,17,766,"damp, cloud-nine, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/55.png
+mankey,56,fighting,5,280,"vital-spirit, anger-point, defiant",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/56.png
+primeape,57,fighting,10,320,"vital-spirit, anger-point, defiant",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/57.png
+growlithe,58,fire,7,190,"intimidate, flash-fire, justified",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/58.png
+arcanine,59,fire,19,1550,"intimidate, flash-fire, justified",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/59.png
+poliwag,60,water,6,124,"water-absorb, damp, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/60.png
+poliwhirl,61,water,10,200,"water-absorb, damp, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/61.png
+poliwrath,62,"water, fighting",13,540,"water-absorb, damp, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/62.png
+abra,63,psychic,9,195,"synchronize, inner-focus, magic-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/63.png
+kadabra,64,psychic,13,565,"synchronize, inner-focus, magic-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/64.png
+alakazam,65,psychic,15,480,"synchronize, inner-focus, magic-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/65.png
+machop,66,fighting,8,195,"guts, no-guard, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/66.png
+machoke,67,fighting,15,705,"guts, no-guard, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/67.png
+machamp,68,fighting,16,1300,"guts, no-guard, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/68.png
+bellsprout,69,"grass, poison",7,40,"chlorophyll, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/69.png
+weepinbell,70,"grass, poison",10,64,"chlorophyll, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/70.png
+victreebel,71,"grass, poison",17,155,"chlorophyll, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/71.png
+tentacool,72,"water, poison",9,455,"clear-body, liquid-ooze, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/72.png
+tentacruel,73,"water, poison",16,550,"clear-body, liquid-ooze, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/73.png
+geodude,74,"rock, ground",4,200,"rock-head, sturdy, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/74.png
+graveler,75,"rock, ground",10,1050,"rock-head, sturdy, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/75.png
+golem,76,"rock, ground",14,3000,"rock-head, sturdy, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/76.png
+ponyta,77,fire,10,300,"run-away, flash-fire, flame-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/77.png
+rapidash,78,fire,17,950,"run-away, flash-fire, flame-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/78.png
+slowpoke,79,"water, psychic",12,360,"oblivious, own-tempo, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/79.png
+slowbro,80,"water, psychic",16,785,"oblivious, own-tempo, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/80.png
+magnemite,81,"electric, steel",3,60,"magnet-pull, sturdy, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/81.png
+magneton,82,"electric, steel",10,600,"magnet-pull, sturdy, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/82.png
+farfetchd,83,"normal, flying",8,150,"keen-eye, inner-focus, defiant",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/83.png
+doduo,84,"normal, flying",14,392,"run-away, early-bird, tangled-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/84.png
+dodrio,85,"normal, flying",18,852,"run-away, early-bird, tangled-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/85.png
+seel,86,water,11,900,"thick-fat, hydration, ice-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/86.png
+dewgong,87,"water, ice",17,1200,"thick-fat, hydration, ice-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/87.png
+grimer,88,poison,9,300,"stench, sticky-hold, poison-touch",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/88.png
+muk,89,poison,12,300,"stench, sticky-hold, poison-touch",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png
+shellder,90,water,3,40,"shell-armor, skill-link, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/90.png
+cloyster,91,"water, ice",15,1325,"shell-armor, skill-link, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/91.png
+gastly,92,"ghost, poison",13,1,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/92.png
+haunter,93,"ghost, poison",16,1,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/93.png
+gengar,94,"ghost, poison",15,405,cursed-body,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/94.png
+onix,95,"rock, ground",88,2100,"rock-head, sturdy, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/95.png
+drowzee,96,psychic,10,324,"insomnia, forewarn, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/96.png
+hypno,97,psychic,16,756,"insomnia, forewarn, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/97.png
+krabby,98,water,4,65,"hyper-cutter, shell-armor, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/98.png
+kingler,99,water,13,600,"hyper-cutter, shell-armor, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/99.png
+voltorb,100,electric,5,104,"soundproof, static, aftermath",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png
+electrode,101,electric,12,666,"soundproof, static, aftermath",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/101.png
+exeggcute,102,"grass, psychic",4,25,"chlorophyll, harvest",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/102.png
+exeggutor,103,"grass, psychic",20,1200,"chlorophyll, harvest",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/103.png
+cubone,104,ground,4,65,"rock-head, lightning-rod, battle-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/104.png
+marowak,105,ground,10,450,"rock-head, lightning-rod, battle-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/105.png
+hitmonlee,106,fighting,15,498,"limber, reckless, unburden",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/106.png
+hitmonchan,107,fighting,14,502,"keen-eye, iron-fist, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/107.png
+lickitung,108,normal,12,655,"own-tempo, oblivious, cloud-nine",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/108.png
+koffing,109,poison,6,10,"levitate, neutralizing-gas, stench",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/109.png
+weezing,110,poison,12,95,"levitate, neutralizing-gas, stench",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/110.png
+rhyhorn,111,"ground, rock",10,1150,"lightning-rod, rock-head, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/111.png
+rhydon,112,"ground, rock",19,1200,"lightning-rod, rock-head, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/112.png
+chansey,113,normal,11,346,"natural-cure, serene-grace, healer",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/113.png
+tangela,114,grass,10,350,"chlorophyll, leaf-guard, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/114.png
+kangaskhan,115,normal,22,800,"early-bird, scrappy, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/115.png
+horsea,116,water,4,80,"swift-swim, sniper, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/116.png
+seadra,117,water,12,250,"poison-point, sniper, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/117.png
+goldeen,118,water,6,150,"swift-swim, water-veil, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/118.png
+seaking,119,water,13,390,"swift-swim, water-veil, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/119.png
+staryu,120,water,8,345,"illuminate, natural-cure, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/120.png
+starmie,121,"water, psychic",11,800,"illuminate, natural-cure, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/121.png
+mr-mime,122,"psychic, fairy",13,545,"soundproof, filter, technician",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/122.png
+scyther,123,"bug, flying",15,560,"swarm, technician, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/123.png
+jynx,124,"ice, psychic",14,406,"oblivious, forewarn, dry-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/124.png
+electabuzz,125,electric,11,300,"static, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/125.png
+magmar,126,fire,13,445,"flame-body, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/126.png
+pinsir,127,bug,15,550,"hyper-cutter, mold-breaker, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/127.png
+tauros,128,normal,14,884,"intimidate, anger-point, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/128.png
+magikarp,129,water,9,100,"swift-swim, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/129.png
+gyarados,130,"water, flying",65,2350,"intimidate, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/130.png
+lapras,131,"water, ice",25,2200,"water-absorb, shell-armor, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/131.png
+ditto,132,normal,3,40,"limber, imposter",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png
+eevee,133,normal,3,65,"run-away, adaptability, anticipation",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png
+vaporeon,134,water,10,290,"water-absorb, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/134.png
+jolteon,135,electric,8,245,"volt-absorb, quick-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/135.png
+flareon,136,fire,9,250,"flash-fire, guts",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/136.png
+porygon,137,normal,8,365,"trace, download, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/137.png
+omanyte,138,"rock, water",4,75,"swift-swim, shell-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/138.png
+omastar,139,"rock, water",10,350,"swift-swim, shell-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/139.png
+kabuto,140,"rock, water",5,115,"swift-swim, battle-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/140.png
+kabutops,141,"rock, water",13,405,"swift-swim, battle-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/141.png
+aerodactyl,142,"rock, flying",18,590,"rock-head, pressure, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png
+snorlax,143,normal,21,4600,"immunity, thick-fat, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/143.png
+articuno,144,"ice, flying",17,554,"pressure, snow-cloak",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/144.png
+zapdos,145,"electric, flying",16,526,"pressure, static",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/145.png
+moltres,146,"fire, flying",20,600,"pressure, flame-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/146.png
+dratini,147,dragon,18,33,"shed-skin, marvel-scale",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/147.png
+dragonair,148,dragon,40,165,"shed-skin, marvel-scale",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/148.png
+dragonite,149,"dragon, flying",22,2100,"inner-focus, multiscale",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/149.png
+mewtwo,150,psychic,20,1220,"pressure, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/150.png
+mew,151,psychic,4,40,synchronize,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/151.png
