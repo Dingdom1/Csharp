@@ -30,7 +30,26 @@ using Newtonsoft.Json;
     [JsonProperty ("abilities")]
 
     public List<PokemonAbilities> Abilities { get; set; }
+
+    // Convert weight from hectograms to pounds
+    [JsonIgnore]
+    public double WeightInPounds => ConvertToPounds(Weight);
+
+    private double ConvertToPounds(int weight)
+    {
+        return Math.Round(weight * 0.220462, 1);
+    }
+
+    // Convert height from decimeters to feet
+    [JsonIgnore]
+    public double HeightInFeet => ConvertToFeet(Height);
+
+    private double ConvertToFeet(int height)
+    {
+        return Math.Round(height * 0.328084, 1);
+    }
 }
+
 // Get the abilities from the API - Name should return as a string
 public class PokemonAbilities
 {
@@ -68,11 +87,13 @@ public class PokemonTypeData
     public string Name { get; set; }
 }
 
+
 class Program
 {
     public static List<Pokemon> Pokedex = new List<Pokemon>();
 
     static async System.Threading.Tasks.Task Main(string[] args)
+
     {
         var client = new HttpClient();
 
@@ -96,8 +117,8 @@ class Program
                 csv.WriteField("Name");
                 csv.WriteField("Id");
                 csv.WriteField("Types");
-                csv.WriteField("Height");
-                csv.WriteField("Weight");
+                csv.WriteField("Height(ft)");
+                csv.WriteField("Weight (lbs)");
                 csv.WriteField("Abilities");
                 csv.WriteField("Front Default");
                 csv.WriteField("Front Shiny");
@@ -109,8 +130,8 @@ class Program
                 csv.WriteField(pokemon.Name);
                 csv.WriteField(pokemon.Id);
                 csv.WriteField(types);
-                csv.WriteField(pokemon.Height);
-                csv.WriteField(pokemon.Weight);
+                csv.WriteField(pokemon.HeightInFeet);
+                csv.WriteField(pokemon.WeightInPounds);
                 csv.WriteField(string.Join(", ", pokemon.Abilities.Select(a => a.AbilityData.Name)));
                 csv.WriteField(pokemon.Sprites.FrontDefault);
                 csv.WriteField(pokemon.Sprites.FrontShiny);
